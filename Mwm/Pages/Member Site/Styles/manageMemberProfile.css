@@ -1,0 +1,147 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+/* Home Hero section */
+.home-hero-section {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('../../../images/hero-bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+    .home-hero-section h2 {
+        color: #fff;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    .home-hero-section p {
+        color: #fff;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        width: 50%;
+        line-height: 25px;
+    }
+
+.btns {
+    margin-top: 30px;
+}
+
+.learn-more-btn,
+.visit-courses-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.learn-more-btn {
+    background-color: rgb(21, 21, 100);
+    transition: 0.3s ease;
+}
+
+    .learn-more-btn:hover {
+        color: rgb(21, 21, 100);
+        background-color: #fff;
+    }
+
+.visit-courses-btn {
+    background-color: #FDC93B;
+    transition: 0.3s ease;
+}
+
+    .visit-courses-btn:hover {
+        color: rgb(21, 21, 100);
+        background-color: #fff;
+    }
+
+.dashboard-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    background-color: #ddd;
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.username {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.edit {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+    .edit:hover {
+        background-color: #f1f1f1;
+    }
+
+.update-Btn {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #EE3B2B;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+    .signout-btn:hover {
+        background-color: red;
+    }
+

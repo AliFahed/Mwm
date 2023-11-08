@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="visitorPageTemplate.master.cs" Inherits="Mwm.Pages.Visitor_Site.visitorPageTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>MWM</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <!-- Top Navigation bar -->
+        <nav>
+            <div class="logo-container">
+                <a href="#" class="logo">Foodie hoddie</a>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                    
+                    <li><a href="registerPage.aspx" class="signup-link">Signup</a></li>
+                    <li><a href="loginPage.aspx" class="login-link">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p>Created by TP062750</p>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

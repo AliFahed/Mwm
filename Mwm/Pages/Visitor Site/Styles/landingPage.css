@@ -1,0 +1,189 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+/* Home Hero section */
+.home-hero-section {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('../../../images/hero-bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+    .home-hero-section h2 {
+        color: #fff;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    .home-hero-section p {
+        color: #fff;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        width: 50%;
+        line-height: 25px;
+    }
+
+.btns {
+    margin-top: 30px;
+}
+
+.learn-more-btn,
+.visit-courses-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.learn-more-btn {
+    background-color: rgb(21, 21, 100);
+    transition: 0.3s ease;
+}
+
+    .learn-more-btn:hover {
+        color: rgb(21, 21, 100);
+        background-color: #fff;
+    }
+
+.visit-courses-btn {
+    background-color: #FDC93B;
+    transition: 0.3s ease;
+}
+
+    .visit-courses-btn:hover {
+        color: rgb(21, 21, 100);
+        background-color: #fff;
+    }
+
+/* About Us Section */
+.about-us-section {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.desc {
+    font-size: 1rem;
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.courses-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.courses-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.courses-info {
+    text-align: left;
+}
+
+    .courses-info h2 {
+        font-weight: bold;
+    }
+
+/* Courses Section */
+.courses-section {
+    padding: 8vw 8vw 4vw 8vw;
+    text-align: center;
+    background-color: #fff;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+.courses {
+    text-align: start;
+    background-color: #f9f9f9;
+    height: 100%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.course-image {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.details {
+    padding: 15px 15px 0 15px;
+}
+
+.course-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(55, 57, 70);
+}
+
+.course-desc {
+    color: rgba(0,0,0,.6);
+}
+
+/* Contact Us Section */
+.contact-us-section {
+    padding: 6vw 6vw 6vw 6vw;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.phone {
+    margin-right: 76px;
+}
+
+.map {
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+    object-fit: cover;
+}

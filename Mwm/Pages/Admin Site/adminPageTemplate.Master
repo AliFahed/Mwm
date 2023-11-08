@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminPageTemplate.master.cs" Inherits="Mwm.Pages.Admin_Site.adminPageTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Top Navigation bar -->
+        <nav>
+            <div class="logo-container">
+                <a href="#" class="logo">Home of Food</a>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="adminDashboard.aspx">Dashboard</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

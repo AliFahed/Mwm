@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="memberPageTemplate.master.cs" Inherits="Mwm.Pages.Member_Site.memberPageTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Member Dashboard</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Top Navigation bar -->
+        <nav>
+            <div class="logo-container">
+                <a href="memberDashboard.aspx" class="logo">Home of Food</a>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="memberDashboard.aspx">My Dashboard</a></li>
+                    <li><a href="manageMemberProfile.aspx">Manage Profile</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">Copyright &copy2022 All rights reserved</p>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

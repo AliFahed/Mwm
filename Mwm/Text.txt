@@ -1,0 +1,37 @@
+﻿
+for update - update the query builder and include name and password
+
+
+// session -> to store global variables
+
+in read func:
+Session["name"] = reader["name"].ToString();
+
+Response.redirect(page.acpx);
+
+// in page load function - home page
+label.text = "welcome " + Session["name"].ToString();
+
+// logout btn
+Session.clear();
+Session.Abandon();
+
+Response.Redirect("landingPage.acpx");
+
+
+// check if name is null
+if(Session["name"] == null) {existing customer} 
+else {guest (hard coded string)}
+
+// for buttons use hyperlink.visibile = true or false
+
+// create a manage profile page (name, email but disable it)
+1. add the fields to be updated
+2. get the existing user data from session or database
+3. populate the data in the field
+4. after clicking save - update the data for the specific user
+
+query = "UPDATE tableName SET name=@name WHERE uid=@uid";
+pass the name from the field & uid from the session
+
+int result = comm.executeQuery(); // 1 -> success, 0 -> failed
